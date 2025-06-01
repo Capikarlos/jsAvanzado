@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    background-color: #fafafa;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#botonAgregarPedido {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#botonAgregarPedido:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+li {
+    background: #ffffff;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completado {
+    text-decoration: line-through;
+    color: #28a745;
+    opacity: 0.7;
+}
+
+span.estado {
+    font-weight: bold;
+}
+
+span.barra-carga {
+    margin-left: 1rem;
+    width: 100px;
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+div.progreso {
+    height: 100%;
+    width: 0%;
+    background-color: #ffc107;
+    transition: width 0.3s ease;
+}
