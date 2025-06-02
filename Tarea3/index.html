@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consumo de API: Fetch vs Axios</title>
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+    <h1>Personajes de Rick &amp; Morty</h1>
+
+    <div class="contenedor-botones">
+        <button id="botonFetch">Cargar con Fetch</button>
+        <button id="botonAxios">Cargar con Axios</button>
+    </div>
+
+    <div id="contenedorDatos" class="grid-personajes">
+        <!-- Aquí se mostrarán los personajes -->
+    </div>
+
+    <!-- Axios desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Lógica de la aplicación -->
+    <script src="app.js"></script>
+</body>
+
+</html>
