@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    padding: 2rem;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    background: #fff;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 2px;
+    display: block;
+    min-height: 1em;
+}
+
+.error.resumen {
+    text-align: center;
+    margin-top: 15px;
+}
